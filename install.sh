@@ -29,6 +29,9 @@ wget https://github.com/dandavison/delta/releases/download/0.14.0/git-delta_0.14
 sudo apt install ./git-delta_0.14.0_amd64.deb
 rm git-delta_0.14.0_amd64.deb
 
+# Symlink batcat to bat.
+sudo ln -s /usr/bin/batcat /usr/bin/bat
+
 # Install Oh My ZSH!
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
